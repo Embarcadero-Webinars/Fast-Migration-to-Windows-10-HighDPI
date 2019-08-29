@@ -1,0 +1,32 @@
+object Form2: TForm2
+  Left = 0
+  Top = 0
+  BorderStyle = bsToolWindow
+  Caption = 'Form2'
+  ClientHeight = 412
+  ClientWidth = 557
+  Color = clBtnFace
+  UseDockManager = True
+  DockSite = True
+  DragKind = dkDock
+  DragMode = dmAutomatic
+  Font.Charset = DEFAULT_CHARSET
+  Font.Color = clWindowText
+  Font.Height = -11
+  Font.Name = 'Tahoma'
+  Font.Style = []
+  OldCreateOrder = False
+  OnDockDrop = FormDockDrop
+  OnDockOver = FormDockOver
+  OnEndDock = FormEndDock
+  PixelsPerInch = 96
+  TextHeight = 13
+  object Panel1: TPanel
+    Left = 208
+    Top = 72
+    Width = 193
+    Height = 161
+    Caption = 'Panel1'
+    TabOrder = 0
+  end
+end
